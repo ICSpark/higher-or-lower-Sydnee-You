@@ -7,12 +7,14 @@ body {
 
 h1 {
     /*make sure to center this!*/
+    text-align: center;
     font-weight: 700;
     font-size: 50px;
 }
 
 p {
   /*make sure to center this!*/
+  text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
@@ -24,5 +26,8 @@ Use Flexbox to center everything in .center
 
 .center {
 /*make sure to center this!*/
+display: flex;
+justify-content: center;
+align-items: center;
     height: 50px;
 }
